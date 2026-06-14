@@ -71,7 +71,7 @@ st.title("♻️ EcoScan")
 st.subheader("Identificação Inteligente de Resíduos")
 st.write(
         """
-    Tire uma foto ou envie uma imagem para identificar 
+    Envie uma imagem para identificar 
     automaticamente materiais recicláveis e descobrir 
     o descarte correto.
 """
