@@ -90,7 +90,7 @@ arquivo = st.file_uploader(
     type=["jpeg", "png", "jpg"]
 )
 
-imagem_selecionada = None
+imagem_selecionada = arquivo
 
 #if foto is not None:
 #   imagem_selecionada = foto
