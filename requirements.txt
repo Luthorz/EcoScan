@@ -3,4 +3,4 @@ tensorflow==2.21.0
 numpy
 Pillow
 gTTS
-tf_keras
+tf-keras
