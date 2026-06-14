@@ -86,7 +86,7 @@ st.info(
 #foto = st.camera_input("Tirar Foto")
 
 arquivo = st.file_uploader(
-    "Ou envie uma imagem",
+    "Envie uma foto para analisar",
     type=["jpeg", "png", "jpg"]
 )
 
@@ -128,4 +128,4 @@ if imagem_selecionada is not None:
     audio_file = open("audio.mp3", "rb")
     st.audio(audio_file.read(), format="audio/mp3")
 else:
-    st.info("Envie uma imagem ou tire uma foto para analisar")
+    st.info("Envie uma imagem")
