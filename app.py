@@ -83,7 +83,7 @@ st.info(
     )
 
 
-foto = st.camera_input("Tirar Foto")
+#foto = st.camera_input("Tirar Foto")
 
 arquivo = st.file_uploader(
     "Ou envie uma imagem",
@@ -92,10 +92,10 @@ arquivo = st.file_uploader(
 
 imagem_selecionada = None
 
-if foto is not None:
-    imagem_selecionada = foto
-elif arquivo is not None:
-    imagem_selecionada = arquivo
+#if foto is not None:
+#   imagem_selecionada = foto
+#elif arquivo is not None:
+#   imagem_selecionada = arquivo
 
 if imagem_selecionada is not None:
 
